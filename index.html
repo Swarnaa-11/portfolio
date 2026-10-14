@@ -193,7 +193,7 @@ footer{background:#080e1f;color:#eaeefb}
 <div class="lab rv"><div class="gw"><canvas id="gm" aria-label="Design Dash game"></canvas><div class="gh"><span>Score<b id="gs">0</b></span><span>Best<b id="gb">0</b></span></div><div class="gov" id="go"><div><b id="gt">Design Dash</b><p id="gd">Catch colours, type and tools. Dodge Lorem ipsum and Comic Sans. Three misses and it's over.</p><button class="btn" id="gp" data-cur="Play">Play</button></div></div></div>
 <div class="ctl"><div><small>Try a different accent colour</small><div class="sw" id="sw"></div></div>
 <div><small>Theme</small><div class="seg"><button id="tg2">Switch light and dark</button></div></div></div></div></section>
-<section id="work" style="padding-top:0"><div class="hd rv"><h2>Selected work</h2><p class="cl" style="max-width:36ch">Five projects across product, brand and art. Scroll to stack them, click to open.</p></div><div id="stack"></div></section>
+<section id="work" style="padding-top:0"><div class="hd rv"><h2>Selected work</h2><p class="cl" style="max-width:36ch">Six projects across product, brand, advertising and art. Scroll to stack them, click to open.</p></div><div id="stack"></div></section>
 <div class="hs" id="hs"><div id="beyond"><div class="hd"><h2>Beyond screens</h2><p class="cl" style="max-width:36ch">Travel sketchbooks and street photography. Scroll to move through, click to enlarge.</p></div><div class="tr" id="tr"></div></div></div>
 
 <section id="experience"><div class="ab"><div class="rv"><h2>Experience</h2><p class="lead">Branding, digital and social work for UK, US and Indian brands, across freelance and agency roles.</p><div class="sk" id="sk"></div></div>
@@ -209,6 +209,7 @@ footer{background:#080e1f;color:#eaeefb}
 
 <script>
 const IMG={
+ "k_thumb":"k_thumb.jpg","k_cover":"k_cover.jpg","k_campaign":"k_campaign.jpg","k_research":"k_research.jpg","k_design":"k_design.jpg","k_motion":"k_motion.jpg",
  "bif_thumb":"bif_thumb.jpg","tp_thumb":"tp_thumb.jpg","bses_thumb":"bses_thumb.jpg","j_thumb":"j_thumb.jpg","ok_thumb":"ok_thumb.jpg","j_cover":"j_cover.jpg","ok_cover":"ok_cover.jpg",
  "bif_cover": "bif_cover.jpg",
  "bif_research": "bif_research.jpg",
@@ -255,6 +256,12 @@ const P=[
  h:'Approach',steps:[['Research','Studied Veeba\'s brand voice and market patterns: real food photography, bold colour and clear categories build trust.'],['Structure','Mapped the pages and home page flow, then iterated layouts by hand before moving to Figma.'],['Interface','Tested icon against photo categories; the client chose colour blocks. Added sliding categories and hover tilts.']],
  out:['Site live at tastypixel.co','Development-ready Figma prototype','Managed client discussions and approvals'],links:[['Visit live site','https://tastypixel.co/']],
  gal:[['tp_ui','Interface design: category pages and the Our Range interaction.','f'],['tp_final','The final responsive website on desktop and mobile.','f']]},
+{slug:'kurkure',tag:'brand',title:'Kurkure',year:'Group project',type:'Advertising campaign',thumb:IMG.k_thumb,cover:IMG.k_cover,lay:'gr',
+ intro:'An academic branding project on how Kurkure, a leading Indian snack brand, could extend its identity into a contemporary, digital-first campaign without losing its visual and tonal language. The idea: a family portrait in quirky poses, united by Kurkure.',
+ meta:[['Role','Visual direction, key launch touchpoints, digital assets, prototypes'],['Duration','4 weeks'],['Type','Group project campaign'],['Campaign parts','Research, pre-launch, launch, sustenance']],
+ h:'Approach',steps:[['Research','SWOT, competitor mapping and a study of core values, tone of voice and USP kept the campaign true to the brand.'],['Idea','"Atpati Parampara, Chatpata Swaad": a family portrait in quirky poses, with Kurkure as the thing that unites everyone, and as a family heirloom.'],['Design','Sketched three layouts, photographed individual poses, then edited the best shots into one key visual in a gilded frame.'],['Launch and sustain','A podcast series before launch, the key visual and GIFs at launch, and a Snapchat filter built in Snap AR Lens Studio to keep people playing.']],
+ out:['A full campaign across pre-launch, launch and sustenance','Key visual, podcast artwork, GIFs and an interactive Snapchat filter','Led the visual direction for the group'],links:[],
+ gal:[['k_campaign','Campaign touchpoints: a countdown launch film, the Chatpata Podcast series on social, and the key visual as a metro billboard.','f'],['k_research','Research: SWOT, brand values and tone of voice, competitor mapping and the campaign flow.','f'],['k_design','Design: key visual sketches, photography and the final framed family portrait.','f'],['k_motion','Motion assets: launch GIF concepts and the Snapchat filter.','f']]},
 {slug:'bses-redesign',tag:'ux',title:'BSES Redesign',year:'2024',type:'Self-initiated website redesign',thumb:IMG.bses_thumb,cover:IMG.bses_cover,lay:'gr',
  intro:'A redesign of the website for BSES Rajdhani, a major Delhi electricity provider, to make payments and key services easier for residential, commercial and industrial users.',
  meta:[['Role','UX research, information architecture, UI design'],['Duration','1 month (15 days research, 12 design)'],['Tools','Figma, Illustrator, Photoshop, Miro'],['Type','Self-initiated project']],
