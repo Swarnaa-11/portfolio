@@ -172,6 +172,9 @@ footer{background:#080e1f;color:#eaeefb}
 .gov{position:absolute;inset:0;display:grid;place-items:center;text-align:center;padding:24px;background:color-mix(in srgb,var(--bg) 70%,transparent);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);transition:opacity .4s}.gov.off{opacity:0;pointer-events:none}
 .gov b{display:block;font:600 clamp(1.6rem,3vw,2.4rem) 'Bricolage Grotesque';letter-spacing:-.03em;margin-bottom:8px}.gov p{color:var(--mut);max-width:34ch;margin:0 auto 20px}
 @media(max-width:860px){.gw{aspect-ratio:4/5}}
+.wp video{position:absolute;left:0;top:-8%;width:100%;height:116%;object-fit:cover;will-change:transform}
+.gal video,.cv video{width:100%;display:block;border-radius:12px;background:var(--card)}
+.cv video{border-radius:0}
 </style><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%E2%9C%A6%3C/text%3E%3C/svg%3E">
 </head><body>
 <div class="pre" id="pre"><b id="pn">0</b><span>Swarna Agarwal, portfolio 2026</span></div>
@@ -201,7 +204,7 @@ footer{background:#080e1f;color:#eaeefb}
 <div class="fx3 rv"><div><small>Currently</small><b>MA User Experience Design, LCC, UAL</b></div><div><small>Based in</small><b>London</b></div><div><small>Awards</small><b>"Design for Innovation", graduation project</b></div></div></section>
 
 <footer id="contact"><small>Contact</small><h2 style="margin-top:12px">Have a project, role or idea? Let's talk.</h2>
-<a class="big" href="mailto:swarnahsj@gmail.com">swarnahsj@gmail.com</a><div><a class="btn" href="www.linkedin.com/in/swarna-agrawal-b2766a216" target="_blank" rel="noopener">LinkedIn</a><a class="btn o" href="mailto:swarnahsj@gmail.com?subject=Hello%20Swarna">Say hello</a></div>
+<a class="big" href="mailto:swarnahsj@gmail.com">swarnahsj@gmail.com</a><div><a class="btn" href="https://www.linkedin.com/in/swarna-agarwal-b2766a216" target="_blank" rel="noopener">LinkedIn</a><a class="btn o" href="mailto:swarnahsj@gmail.com?subject=Hello%20Swarna">Say hello</a></div>
 <div class="ft"><small>© 2026 Swarna Agarwal</small><small id="clk2"></small><small>Designed by Swarna Agarwal</small></div></footer>
 
 <article id="case" aria-label="Case study"></article>
@@ -261,7 +264,7 @@ const P=[
  meta:[['Role','Visual direction, key launch touchpoints, digital assets, prototypes'],['Duration','4 weeks'],['Type','Group project campaign'],['Campaign parts','Research, pre-launch, launch, sustenance']],
  h:'Approach',steps:[['Research','SWOT, competitor mapping and a study of core values, tone of voice and USP kept the campaign true to the brand.'],['Idea','"Atpati Parampara, Chatpata Swaad": a family portrait in quirky poses, with Kurkure as the thing that unites everyone, and as a family heirloom.'],['Design','Sketched three layouts, photographed individual poses, then edited the best shots into one key visual in a gilded frame.'],['Launch and sustain','A podcast series before launch, the key visual and GIFs at launch, and a Snapchat filter built in Snap AR Lens Studio to keep people playing.']],
  out:['A full campaign across pre-launch, launch and sustenance','Key visual, podcast artwork, GIFs and an interactive Snapchat filter','Led the visual direction for the group'],links:[],
- gal:[['k_campaign','Campaign touchpoints: a countdown launch film, the Chatpata Podcast series on social, and the key visual as a metro billboard.','f'],['k_research','Research: SWOT, brand values and tone of voice, competitor mapping and the campaign flow.','f'],['k_design','Design: key visual sketches, photography and the final framed family portrait.','f'],['k_motion','Motion assets: Launched GIF concepts and the Snapchat filters.','f']]},
+ gal:[['k_campaign','Campaign touchpoints: a countdown launch film, the Chatpata Podcast series on social, and the key visual as a metro billboard.','f'],['k_research','Research: SWOT, brand values and tone of voice, competitor mapping and the campaign flow.','f'],['k_design','Design: key visual sketches, photography and the final framed family portrait.','f'],['k_motion','Motion assets: the launch GIFs and the Snapchat filter in action.','f']]},
 {slug:'bses-redesign',tag:'ux',title:'BSES Redesign',year:'2024',type:'Self-initiated website redesign',thumb:IMG.bses_thumb,cover:IMG.bses_cover,lay:'gr',
  intro:'A redesign of the website for BSES Rajdhani, a major Delhi electricity provider, to make payments and key services easier for residential, commercial and industrial users.',
  meta:[['Role','UX research, information architecture, UI design'],['Duration','1 month (15 days research, 12 design)'],['Tools','Figma, Illustrator, Photoshop, Miro'],['Type','Self-initiated project']],
@@ -279,13 +282,15 @@ const P=[
  meta:[['Location','Okhla, Delhi'],['Format','Black and white photography'],['Subject','People and everyday streets'],['Role','Photography and editing']],
  h:'Approach',steps:[['Walk slowly','Spend time in the neighbourhood before lifting the camera, so the street gets used to you.'],['Shoot at eye level','Most frames are level with the person, so they meet the viewer directly rather than being looked down on.'],['Edit in monochrome','Removing colour quiets signage and clutter, so expression, gesture and texture carry the picture.']],
  out:['A series of nine frames from Okhla','A reminder that good research starts with paying attention to people'],links:[],
- gal:[['p4','A man rests on a tree branch beside a truck.'],['p8','Neighbours on a charpai under a tree of tangled cables.'],['p6','Children gather against a weathered wall.'],['p2','A couple pause over a meal.'],['p1','A portrait in front of corrugated sheets.'],['p9','A woman watches from behind a balcony railing.'],['p3','A group walks down the road in action.'],['p7','Brick, tin and a motorbike in a narrow lane.'],['p5','Riders blur past a tunnel wall at speed.']]}];
+ gal:[['p4','A man rests on a tree branch beside a truck.'],['p8','Neighbours on a charpai under a tree of tangled cables.'],['p6','Children gather against a weathered wall.'],['p2','A couple pause over a meal.'],['p1','A portrait in front of corrugated sheets.'],['p9','A woman watches from behind a balcony railing and leaves.'],['p3','A group walks down the road past a painted truck.'],['p7','Brick, tin and a motorbike in a narrow lane.'],['p5','Riders blur past a tunnel wall at speed.']]}];
 const CAP=[['Research and strategy','Interviews, observation, affinity mapping, SWOT and MoSCoW prioritisation. I use research to decide what not to build.','User interviews · site maps · competitor analysis · personas'],['Interaction and UI design','Flows, wireframes and high-fidelity interfaces with clear hierarchy, accessible contrast and responsive behaviour.','Figma · design systems · prototyping · usability'],['Brand and visual communication','Identity, campaigns, packaging, social content and storytelling that stay consistent across channels.','Adobe Creative Cloud · art direction · photography'],['Interactive prototyping','I prototype in Figma, and in code where an idea needs real interaction, like the hand-tracked interface in Bias in Focus.','Figma prototypes · motion and interaction · usability testing']];
 const EXP=[['Graphic Designer, The Gutenberg','2025–26'],['Freelance Graphic Designer','2024–26'],['Graphic Design Intern, Anagram Digital','2024'],['Social Media Head, Harsahaimal Shiamlal Jewellers','2023–now'],['Graphic Design Intern, Creative Pujaari','2023'],['MA User Experience Design, LCC, UAL','2026–27'],['BA (Hons) Communication Design, Kingston University','2021–25']];
 const SK=['User research','Wireframing','Interaction design','Visual design','Branding','Prototyping','Basic HTML and CSS','Figma','Adobe Creative Cloud','Photography','Illustration'];
 
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)],cl=(v,a,b)=>Math.min(b,Math.max(a,v));
 const cs=$('#case'),root=document.documentElement;
+const isV=s=>/\.(mp4|webm)$/i.test(s);
+const media=(s,alt,fb)=>isV(s)?`<video src="${s}" muted loop autoplay playsinline preload="metadata" aria-label="${alt}"></video>`:`<img src="${s}" alt="${alt}"${fb?` onerror="this.onerror=null;this.src='${fb}'"`:''}>`;
 $('#mq').innerHTML=('<span>UX design</span><b>✦</b><span>Visual identity</span><b>✦</b><span>Prototyping</span><b>✦</b><span>Research</span><b>✦</b><span>Illustration</span><b>✦</b><span>Photography</span><b>✦</b>').repeat(5);
 /* hero physics */
 let mode='repel',dragL=null,lastMove=0,cx0=0,cy0=0,lt=0,fps=60;
@@ -315,7 +320,7 @@ const SW=[['Default',''],['Cobalt','#5a86ff','90,134,255'],['Mint','#2fd6a1','47
 $('#sw').innerHTML=SW.map((s,i)=>`<button aria-label="${s[0]}" data-i="${i}" style="background:${s[1]||'var(--ac)'}"></button>`).join('');
 $('#sw').onclick=e=>{const b=e.target.closest('button');if(!b)return;const s=SW[b.dataset.i];if(s[1]){root.style.setProperty('--ac',s[1]);root.style.setProperty('--acrgb',s[2])}else{root.style.removeProperty('--ac');root.style.removeProperty('--acrgb')}};
 /* work stack */
-$('#stack').innerHTML=P.map((p,i)=>`<article class="wk" style="--i:${i}"><a class="wc" href="#/work/${p.slug}" data-cur="Open"><div class="wt"><div><span class="wn">${String(i+1).padStart(2,'0')} / ${String(P.length).padStart(2,'0')}</span><h3>${p.title}</h3><p>${p.intro}</p></div><div><ul class="tg">${[p.type,p.year,p.meta[0][1]].map(x=>`<li>${x}</li>`).join('')}</ul><span class="go">View case study<svg viewBox="0 0 24 24"><path d="M6 18L18 6M9 6h9v9"/></svg></span></div></div><div class="wp"><img src="${p.thumb||p.cover}" alt="${p.title}" onerror="this.onerror=null;this.src='${p.cover}'"></div></a></article>`).join('');
+$('#stack').innerHTML=P.map((p,i)=>`<article class="wk" style="--i:${i}"><a class="wc" href="#/work/${p.slug}" data-cur="Open"><div class="wt"><div><span class="wn">${String(i+1).padStart(2,'0')} / ${String(P.length).padStart(2,'0')}</span><h3>${p.title}</h3><p>${p.intro}</p></div><div><ul class="tg">${[p.type,p.year,p.meta[0][1]].map(x=>`<li>${x}</li>`).join('')}</ul><span class="go">View case study<svg viewBox="0 0 24 24"><path d="M6 18L18 6M9 6h9v9"/></svg></span></div></div><div class="wp">${media(p.thumb||p.cover,p.title,p.cover)}</div></a></article>`).join('');
 $('#cap').innerHTML=CAP.map(c=>`<div class="ac rv"><div tabindex="0" role="button" aria-expanded="false"><h3>${c[0]}</h3><u></u></div><div class="ap"><div><p>${c[1]}</p><small>${c[2]}</small></div></div></div>`).join('');
 $$('.ac').forEach(a=>{const b=a.firstElementChild,t=()=>{const o=a.classList.toggle('open');b.setAttribute('aria-expanded',o)};b.onclick=t;b.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();t()}}});$('.ac').classList.add('open');
 const BEY=['j5','p4','j2','p6','j3','p8','j6','p2','j9','p9'];
@@ -346,7 +351,7 @@ function tick(t){
  fps+=(1000/((t-lt)||16)-fps)*.1;lt=t;if(!(fc%8))readout();
  const sy=scrollY;hd.classList.toggle('hide',sy>ly&&sy>200);ly=sy;
  const sr=$('#stmt').getBoundingClientRect(),p=cl((innerHeight*.8-sr.top)/(sr.height+innerHeight*.3),0,1);stmt.forEach((w,i)=>w.classList.toggle('on',p*stmt.length*1.25>i));
- $$('.wp img').forEach(im=>{const r=im.parentNode.getBoundingClientRect();if(r.bottom>0&&r.top<innerHeight){const q=cl((r.top+r.height/2-innerHeight/2)/innerHeight,-1,1);im.style.transform=`translateY(${q*-5}%)`}});
+ $$('.wp img,.wp video').forEach(im=>{const r=im.parentNode.getBoundingClientRect();if(r.bottom>0&&r.top<innerHeight){const q=cl((r.top+r.height/2-innerHeight/2)/innerHeight,-1,1);im.style.transform=`translateY(${q*-5}%)`}});
  if(innerWidth>860){const tops=wk.map(e=>e.getBoundingClientRect().top);wk.forEach((e,i)=>{let n=0;for(let j=i+1;j<wk.length;j++)if(tops[j]<=84+j*18+4)n++;const c=e.firstElementChild;c.style.transform=`scale(${1-n*.04})`;c.style.filter=n?`brightness(${1-n*.15})`:''})}
  if(innerWidth>860){const r=hs.getBoundingClientRect(),tt=hs.offsetHeight-innerHeight,pr=cl(-r.top/tt,0,1);tr.style.transform=`translateX(${-pr*(tr.scrollWidth-innerWidth)}px)`}else tr.style.transform='';
  if(cs.classList.contains('open')){const u=$('#pg');if(u)u.style.width=(cs.scrollTop/(cs.scrollHeight-cs.clientHeight||1)*100)+'%'}
@@ -363,13 +368,13 @@ addEventListener('keydown',e=>{if(lb.classList.contains('on')){if(e.key==='Escap
 /* case studies */
 function show(slug){
  const i=P.findIndex(p=>p.slug===slug);if(i<0){cs.classList.remove('open');document.body.style.overflow='';return}
- const p=P[i],n=P[(i+1)%P.length];LB=p.gal.map(g=>IMG[g[0]]);
+ const p=P[i],n=P[(i+1)%P.length];LB=p.gal.map(g=>IMG[g[0]]).filter(s=>!isV(s));let q=0;
  cs.innerHTML=`<div class="ct"><b>${p.title}</b><button class="xb" id="x" data-cur="Close">Close</button><div class="pg"><u id="pg"></u></div></div><div class="cx"><p class="cl">${p.type}, ${p.year}</p><h1>${p.title}</h1><p class="lead">${p.intro}</p>
  <div class="mt">${p.meta.map(m=>`<div><small>${m[0]}</small><b>${m[1]}</b></div>`).join('')}</div>
- <div class="cv rv"><img src="${p.cover}" alt="${p.title}" onerror="this.onerror=null;this.src='${p.alt||p.thumb||p.cover}'"></div>
+ <div class="cv rv">${media(p.cover,p.title,p.alt||p.thumb||p.cover)}</div>
  ${p.facts?`<div class="fc rv">${p.facts.map(f=>`<div><b>${f[0]}</b><small>${f[1]}</small></div>`).join('')}</div>`:''}
  <div class="sc rv"><h2>${p.h}</h2><ol>${p.steps.map(s=>`<li><b>${s[0]}.</b> ${s[1]}</li>`).join('')}</ol></div>
- <div class="gal ${p.lay}">${p.gal.map((g,k)=>`<figure class="rv ${g[2]||''}"><img data-i="${k}" src="${IMG[g[0]]}" alt="${g[1]}" loading="lazy"><figcaption>${g[1]}</figcaption></figure>`).join('')}</div>
+ <div class="gal ${p.lay}">${p.gal.map(g=>{const s=IMG[g[0]];return `<figure class="rv ${g[2]||''}">${isV(s)?media(s,g[1]):`<img data-i="${q++}" src="${s}" alt="${g[1]}" loading="lazy">`}<figcaption>${g[1]}</figcaption></figure>`}).join('')}</div>
  <div class="sc rv"><h2>Outcome</h2><div><ul>${p.out.map(o=>`<li>${o}</li>`).join('')}</ul>${p.links.map(l=>`<a class="btn" target="_blank" rel="noopener" href="${l[1]}">${l[0]}</a>`).join('')}</div></div>
  <a class="nx" href="#/work/${n.slug}" data-cur="Next"><small>Next project</small><h2>${n.title}</h2></a></div>`;
  cs.scrollTop=0;cs.classList.add('open');document.body.style.overflow='hidden';
